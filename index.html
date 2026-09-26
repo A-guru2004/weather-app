@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="weather-app">
+        <h1>Weather App</h1>
+
+        <input type="text" id="city" placeholder="Enter city name">
+
+        <button id="searchBtn">Search</button>
+
+        <p id="message"></p>
+
+        <div class="weather-info">
+          <img id="icon" alt="Weather icon" hidden>
+          <h2 id="cityName">Chennai</h2>
+          <p id="temperature">Temperature: -- °C</p>
+          <p id="feelsLike">Feels like: -- °C</p>
+          <p id="humidity">Humidity: -- %</p>
+          <p id="wind">Wind: -- m/s</p>
+          <p id="description">Weather: --</p>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
