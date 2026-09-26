@@ -12,9 +12,10 @@ A simple, clean weather app that shows current weather details for any city usin
 - Responsive, minimal UI
 
 ## Demo
+live (https://a-guru2004.github.io/weather-app/)
 
 ![Weather App Screenshot](screenshot.png)
-*(Add a screenshot of your app here)*
+
 
 ## Tech Stack
 
